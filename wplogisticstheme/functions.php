@@ -36,6 +36,8 @@ function display_theme_pannel_fields(){
 	add_settings_field('background_color', 'Background Color', 'display_bgcolor', 'theme-style-options', 'stylesection');
 	add_settings_field('primary_color', 'Primary Color', 'display_primarycolor', 'theme-style-options', 'stylesection');
 	add_settings_field('secondary_color', 'Secondary Color', 'display_secondarycolor', 'theme-style-options', 'stylesection');
+	add_settings_field('footer_color', 'Footer Text Color', 'display_fcolor', 'theme-style-options', 'stylesection');
+	add_settings_field('footer_bgcolor', 'Footer Background Color', 'display_fbgcolor', 'theme-style-options', 'stylesection');
 	
 	register_setting('stylesection', 'background_color');
 	
@@ -115,10 +117,22 @@ function display_primarycolor(){
 	<input type="text" name="primary_color" id="primary_color" value="<?php echo letsgetop('primary_color', '#8d7a42'); ?>" data-jscolor=""/>
 	<?php
 }
-//primary color
+//secondary color
 function display_secondarycolor(){
 	?>
 	<input type="text" name="secondary_color" id="secondary_color" value="<?php echo letsgetop('secondary_color', '#c5b37d'); ?>" data-jscolor=""/>
+	<?php
+}
+//footer text color
+function display_fcolor(){
+	?>
+	<input type="text" name="footer_color" id="footer_color" value="<?php echo letsgetop('footer_color', '#333333'); ?>" data-jscolor=""/>
+	<?php
+}
+//footer bg color
+function display_fbgcolor(){
+	?>
+	<input type="text" name="footer_bgcolor" id="footer_bgcolor" value="<?php echo letsgetop('footer_bgcolor', '#f7f7f7'); ?>" data-jscolor=""/>
 	<?php
 }
 
@@ -182,7 +196,7 @@ function mywp_custom_footerwidgetarea(){
 		'id'			=> 'home_footer_widget',
 		'before_widget'	=> '<div class="widget-footer">',
 		'after_widget'	=> '</div>',
-		'before_title' 	=> '<h2 class="widget-title"><i class="fa fa-circle-thin"></i> ',
+		'before_title' 	=> '<h2 class="widget-title">',
 		'after_title'	=> '</h2>',
 	));
 }

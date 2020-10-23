@@ -36,7 +36,6 @@ a{
 	color: inherit;
 }
 
-
 .mobilemenubutton{
 	position: fixed;
 	font-size: 20px;
@@ -176,26 +175,24 @@ input[type=submit]{
 }
 
 .footer{
-	display: table;
-	table-layout: fixed;
-	width: 100%;
-	font-size: 14px;
-	color: white;
+	font-weight: bold;
 }
 
 .footermedsos{
-    color: white; text-align: center; padding: 30px;
+    color: #6c6c6c; background-color: white; text-align: center; padding: 30px;
 }
 
 .footercopyright{
-    background-color: black;
-    color: white; text-align: center; padding: 20px; font-size: 12px;
+    background-color: white;
+    color: black; 
+	text-align: center; padding: 20px; font-size: 12px;
 }
 
 .widget-footer{
 	display: table-cell;
 	vertical-align: top;
 	padding: 20px;
+	max-width: 200px;
 }
 
 
@@ -287,6 +284,45 @@ input[type=submit]{
 	z-index: 100;
 }
 
+.widthlimiter{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.searchbar{
+    
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .75);
+    backdrop-filter: blur(10px);
+    z-index: 101;
+    text-align: center;
+}
+
+.searchbutton{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.vertmobile{
+    width: 50%;
+}
+
+.vertmobile25{
+    width: 25%;
+    box-sizing: border-box;
+}
+
+
 /* medium view */
 @media (max-width: 920px){
     .thumbimage{
@@ -298,6 +334,18 @@ input[type=submit]{
 
 /* mobile view */
 @media (max-width: 720px){
+    
+    .vertmobile{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .vertmobile25{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
 	
 	.mobilemenubutton{
 		display: inline-block;

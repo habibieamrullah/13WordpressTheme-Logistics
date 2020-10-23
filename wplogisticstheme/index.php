@@ -4,6 +4,7 @@
 <?php dynamic_sidebar('home_widget'); ?>
 <?php endif; ?>
 
+<!--
 <div class="sitebody">
 	<div class="bodycell cnt">
 		<div class="latestposts">
@@ -33,7 +34,7 @@
 		</div>
 	</div>
 </div>
-
+-->
 
 
 <?php get_footer(); ?>
