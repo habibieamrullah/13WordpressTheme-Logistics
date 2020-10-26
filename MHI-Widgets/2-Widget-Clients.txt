@@ -1,0 +1,38 @@
+<div style="text-align: center; background-color: white; padding-top: 50px;">
+	<h2>
+		Our Clients
+	</h2>
+	<div class="clientsslide" style="max-width: 900px; margin: 0 auto; margin-bottom: 50px;">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-1.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-2.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-3.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-4.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-5.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-6.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-7.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-8.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-9.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-10.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-11.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-12.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-13.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-14.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-15.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-16.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-17.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-18.png" alt="ClientSlideImage">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/clients-19.png" alt="ClientSlideImage">
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+		$('.clientsslide').slick({
+			autoplaySpeed: 3000,
+			autoplay : true,
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			dots: true,
+		});
+	})
+</script>

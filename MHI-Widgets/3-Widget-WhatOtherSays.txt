@@ -1,0 +1,30 @@
+<div style="text-align: center; padding-top: 50px; background: url(https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/goldenabstract.jpg) no-repeat fixed center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+	<h2>What Others Say About Us</h2>
+	<div class="testimonyslides" style="max-width: 900px; margin: 0 auto;">
+		<div>
+			<p style="font-size: 30px;">The services provided by MHI has shown to be all rounded, catering to all our concerns and needs in our businesses.</p>
+			<p>Hans Chia, ClearCom</p>
+		</div>
+		<div>
+			<p style="font-size: 30px;">My enterprise needs have been met by MHI through their thorough and careful planning for my logistical needs every step of the way. I hope to grow with them in this venture with time to come.</p>
+			<p>Tommy Lim, CJ Logistics</p>
+		</div>
+		<div>
+			<p style="font-size: 30px;">I have engaged MHI to be our logistical partner in our venture and has not regret since. They provide tip top services along with customer care. I look forward to further ventures with them.</p>
+			<p>Steven Sng, Expandore</p>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('.testimonyslides').slick({
+			autoplaySpeed: 3000,
+			autoplay : true,
+			infinite: true,
+			dots: true,
+			prevArrow: "<div style='position: absolute; top: 25%; left: -10%;'><div style='display: table-cell; vertical-align: middle; cursor: pointer; background-color: #8D7A42; color: white; padding: 10px;'><i class='fa fa-arrow-left'></i></div<</div>",
+            nextArrow: "<div style='position: absolute; top: 25%; right: -10%;'><div style='display: table-cell; vertical-align: middle; cursor: pointer; background-color: #8D7A42; color: white; padding: 10px;'><i class='fa fa-arrow-right'></i></div></div>",
+		});
+	})
+</script>

@@ -1,0 +1,24 @@
+<div style="text-align: center; padding-top: 50px; background: url(https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/goldenabstract.jpg) no-repeat fixed center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+	<div class="widthlimiter">
+		<h2>Our Services</h2>
+		<table style="width: 100%; box-sizing: border-box; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px);">
+			<tr>
+				<td style="vertical-align: top; padding: 30px;" class="vertmobile25">
+					<div><img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/serviceimage1.jpg" style="width: 100%;" alt="ServicesImage"></div>
+					<h3>In-house storage hub with 24/7 security</h3>
+					<div>We provide in-house storage facilities for short to long term lease and volume consolidation for export or local distribution. Our facility is insured to store high-end valuables, please contact us for more information.</div>
+				</td>
+				<td style="vertical-align: top; padding: 30px;" class="vertmobile25">
+					<div><img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/serviceimage2.jpg" style="width: 100%;" alt="ServicesImage"></div>
+					<h3>Repackaging</h3>
+					<div>Branding is key for all businesses. Our facility and team are equipped to provide repackaging services in timely order for quick turn-around services.</div>
+				</td>
+				<td style="vertical-align: top; padding: 30px;" class="vertmobile25">
+					<div><img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/serviceimage3.jpg" style="width: 100%;" alt="ServicesImage"></div>
+					<h3>Return merchandise authorization (RMA)</h3>
+					<div>We can take care of your returns and certify damages. We can process refunds or replacements as instructed. Any returns can be consolidated and shipped back to its origin.</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>

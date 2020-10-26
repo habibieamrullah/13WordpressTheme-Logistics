@@ -1,0 +1,21 @@
+<div>
+	<div class="homeslider" style="width: 100%; margin-bottom: 50px;">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/homeslider1.jpg" style="width: 100%">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/homeslider2.jpg" style="width: 100%">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/homeslider3.jpg" style="width: 100%">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/homeslider4.jpg" style="width: 100%">
+		<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/homeslider5.jpg" style="width: 100%">
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+		$('.homeslider').slick({
+			autoplaySpeed: 3000,
+			autoplay : true,
+			infinite: true,
+			dots: true,
+			prevArrow: "<div style='position: absolute; z-index: 1; top: 45%; left: 50px;'><div style='display: table-cell; vertical-align: middle; cursor: pointer; background-color: rgba(0,0,0,.25); backdrop-filter: blur(10px); color: white; padding: 10px;'><i class='fa fa-chevron-left'></i></div<</div>",
+            nextArrow: "<div style='position: absolute; z-index: 1; top: 45%; right: 50px;'><div style='display: table-cell; vertical-align: middle; cursor: pointer; background-color: rgba(0,0,0,.25); backdrop-filter: blur(10px); color: white; padding: 10px;'><i class='fa fa-chevron-right'></i></div></div>",
+		});
+	})
+</script>

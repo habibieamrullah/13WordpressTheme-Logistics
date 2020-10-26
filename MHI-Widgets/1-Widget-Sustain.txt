@@ -1,0 +1,8 @@
+<div style="font-weight: bold; text-align: center; color: white; padding: 60px; background: url(https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/sustainability.jpg) no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+	<h2>
+		SUSTAINABILITY at MHI Logistics
+	</h2>
+	<p>
+		MHI Logistics is playing a proactive role in developing three core values - Job Creation, Eco-Friendliness, and Co-prosperity - based on MHI's founding philosophy.
+	</p>
+</div>

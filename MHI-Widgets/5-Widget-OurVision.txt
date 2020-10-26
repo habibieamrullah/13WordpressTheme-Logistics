@@ -1,0 +1,22 @@
+<div style="width: 100%; color: white; padding-top: 50px; padding-bottom: 50px; background: url(https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/logisticsbg.jpg) no-repeat fixed center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+	<div class="widthlimiter">
+		<table style="width: 100%">
+			<tr>
+				<td style="padding: 10px; vertical-align: center;" class="vertmobile">
+					<h2>
+						Our Vision
+					</h2>
+					<p>
+						Here at Mao Heng we hope to achieve world class quality logistical services for you and your needs. In future, we hope to cater cargo transport efficiency on a global scale through the most renown supply chain the world has to offer.
+					</p>
+				</td>
+				<td style="padding: 10px; vertical-align: center;" class="vertmobile">
+					<video poster="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/MHI_Logistics-Video.mp4_snapshot_00.04_2020.10.23_06.51.30.jpg" width="100%" controls>
+						<source src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/MHI_Logistics-Video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
