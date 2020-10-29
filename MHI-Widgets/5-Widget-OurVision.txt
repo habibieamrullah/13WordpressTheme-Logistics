@@ -12,7 +12,7 @@
 				</td>
 				<td style="padding: 10px; vertical-align: center;" class="vertmobile">
 					<video poster="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/MHI_Logistics-Video.mp4_snapshot_00.04_2020.10.23_06.51.30.jpg" width="100%" controls>
-						<source src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/MHI_Logistics-Video.mp4" type="video/mp4">
+						<source src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/MHI-ANIMATION_12.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
 				</td>

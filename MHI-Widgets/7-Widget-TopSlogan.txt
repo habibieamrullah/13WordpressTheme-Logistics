@@ -2,5 +2,8 @@
     <div class="widthlimiter" style="text-align: center">
         <h2 style="font-size: 35px; margin: 50px;">"We strive to produce high benchmarks of quality, consistency and commitment to our partners!"</h2>
         <a href="#"><div class="ctabutton" style="margin-bottom: 50px;">Find out more!</div></a>
+		<div style="padding: 30px; text-align: center;">
+			<img src="https://alkalomeclat.com/newmhi/wp-content/uploads/2020/10/DeliveryInfographic.png" style="width: 100%; max-width: 512px;">
+		</div>
     </div>
 </div>
